@@ -1,17 +1,19 @@
 # 💳 NexusPay — Digital Payment System Database
 
 ![MySQL](https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql)
-![SQL](https://img.shields.io/badge/Language-SQL-orange?style=for-the-badge)
+![SQL](https://img.shields.io/badge/Language-SQL-orange?style=for-the-badge&logo=databricks)
+![PowerBI](https://img.shields.io/badge/Analytics-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
+![Git](https://img.shields.io/badge/Version%20Control-Git-red?style=for-the-badge&logo=git)
 ![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
-> A fully structured relational database for a modern digital payment platform — supporting wallets, UPI transactions, fraud detection, merchant payments, loans, cashback, and customer support.
+> A fully structured relational database for a modern digital payment platform — supporting wallets, UPI transactions, fraud detection, merchant payments, loans, cashback, and customer support. Built with SQL and designed for Power BI analytics and reporting.
 
 ---
 
 ## 📌 Table of Contents
 
 - [About the Project](#-about-the-project)
+- [Power BI Analytics](#-power-bi-analytics)
 - [Database Schema](#-database-schema)
 - [Tables Overview](#-tables-overview)
 - [Key Features](#-key-features)
@@ -26,6 +28,8 @@
 
 **NexusPay** is a digital payment system database designed to handle real-world financial operations. It models the complete backend data layer of a UPI-based payment application similar to PhonePe, Google Pay, or Paytm.
 
+The database is built using **SQL (MySQL)** and structured to support **Power BI dashboards** for business intelligence and financial analytics.
+
 The database covers:
 - User registration and KYC verification
 - Digital wallet management with UPI handles
@@ -35,6 +39,33 @@ The database covers:
 - Fraud detection and risk scoring
 - Services like loans, cashback, coupons, and autopay
 - Customer support tickets and user reviews
+
+---
+
+## 📊 Power BI Analytics
+
+This database is designed to connect directly with **Microsoft Power BI** for visual reporting and business intelligence.
+
+### 📈 Suggested Power BI Dashboards
+
+| Dashboard | Key Metrics |
+|-----------|-------------|
+| **Transaction Overview** | Total transactions, success rate, failed payments |
+| **Revenue Report** | Total fees collected, net amount processed |
+| **User Analytics** | New users, KYC status, active vs suspended accounts |
+| **Fraud Detection Report** | Flagged transactions, risk scores, blocked users |
+| **Merchant Performance** | Top merchants, category-wise payments |
+| **Wallet & Balance Report** | Total wallet balance, UPI usage statistics |
+| **Support Ticket Analysis** | Open vs resolved tickets, average rating |
+| **Cashback & Offers Report** | Cashback distributed, coupons used, autopay trends |
+
+### 🔗 How to Connect Power BI to This Database
+
+1. Open **Power BI Desktop**
+2. Click **Get Data → MySQL Database**
+3. Enter your **Server** and **Database name** (`nexuspay`)
+4. Select the tables you need
+5. Click **Load** and start building dashboards! ✅
 
 ---
 
@@ -177,6 +208,7 @@ Combined table for customer support tickets and user feedback/ratings.
 - ✅ **Multi-Service Support** — Loans, cashback, coupons, autopay in one table
 - ✅ **Support System** — Tickets + reviews combined
 - ✅ **Sample Data Included** — 50 users, merchants, transactions & more
+- ✅ **Power BI Ready** — Structured for direct dashboard integration
 
 ---
 
@@ -185,6 +217,7 @@ Combined table for customer support tickets and user feedback/ratings.
 ### Prerequisites
 - MySQL 8.0 or higher
 - MySQL Workbench / phpMyAdmin / DBeaver (any SQL client)
+- Power BI Desktop *(for analytics & dashboards)*
 
 ### Installation
 
@@ -210,6 +243,12 @@ USE nexuspay;
 SHOW TABLES;
 ```
 
+**Step 4 — Connect to Power BI:**
+1. Open Power BI Desktop
+2. Click **Get Data → MySQL Database**
+3. Connect to `nexuspay`
+4. Build your dashboards!
+
 ---
 
 ## 📊 Sample Data
@@ -233,7 +272,8 @@ The database comes pre-loaded with realistic sample data:
 | Technology | Usage |
 |-----------|-------|
 | **MySQL** | Primary database engine |
-| **SQL** | Schema design & data manipulation |
+| **SQL** | Schema design, data manipulation & querying |
+| **Power BI** | Data analytics, dashboards & visual reporting |
 | **Git** | Version control |
 | **GitHub** | Code hosting & collaboration |
 
@@ -243,14 +283,11 @@ The database comes pre-loaded with realistic sample data:
 
 **Ashish Swami**
 
+*Data Analytics & Science | SQL | Power BI | Python | Tableau | Deloitte*
+
 [![GitHub](https://img.shields.io/badge/GitHub-Ashishswami99-black?style=flat&logo=github)](https://github.com/Ashishswami99)
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
 
----
-
-> ⭐ If you found this project helpful, please consider giving it a star on GitHub!
