@@ -283,7 +283,7 @@ The database comes pre-loaded with realistic sample data:
 
 **Ashish Swami**
 
-*Data Analytics & Science | SQL | Power BI | Python | Tableau | Deloitte*
+*Data Analytics &  Science | SQL | Power BI | Python | Tableau | Deloitte*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ashishswami99-black?style=flat&logo=github)](https://github.com/Ashishswami99)
 
