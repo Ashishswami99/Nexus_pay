@@ -7,11 +7,6 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-![MySQL](https://img.shields.io/badge/Database-MySQL-blue?style=for-the-badge&logo=mysql)
-![SQL](https://img.shields.io/badge/Language-SQL-orange?style=for-the-badge&logo=databricks)
-![PowerBI](https://img.shields.io/badge/Analytics-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
-![Git](https://img.shields.io/badge/Version%20Control-Git-red?style=for-the-badge&logo=git)
-![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
 
 > A fully structured relational database for a modern digital payment platform — supporting wallets, UPI transactions, fraud detection, merchant payments, loans, cashback, and customer support. Built with SQL and designed for Power BI analytics and reporting.
 
